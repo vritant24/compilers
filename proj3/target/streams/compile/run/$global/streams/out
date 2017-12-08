@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Nonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeTrapExit(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.run(Run.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$5(Defaults.scala:1155)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$5$adapted(Defaults.scala:1150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$$$Lambda$4009/1590686940.apply(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool.$anonfun$run$1(DefaultBackgroundJobService.scala:331)[0m

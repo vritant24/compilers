@@ -1,0 +1,86 @@
+run "1"
+run "1+2"
+run "1"
+run "var x = 0; x"
+run "1"
+run "val x = 1; x"
+run "var x = 1; x"
+run "var x = 1; x = 2; x"
+run "1"
+run "val x = 0; x"
+run "var x = 0; x"
+run "var x = 0; x = x + 1; x""
+run "var x = 0; x = x + 1; x"
+run "var x = 0; x = 1; x"
+run "1"
+run "if(true) 1 else 4"
+run "1"
+run "val x = 0; while(x < 3) x = x + 1; x"
+run "var x = 0; while(x < 3) x = x + 1; x"
+run "var x = true; while(x) x = false; x"
+run "1"
+run "if(true) 1 else 4"
+run "1"
+  s
+run "1"
+run "1+1"
+run "var x = 1; x = x + 1; x"
+run "var x = 1; x"
+run "var x = 1; x = x + 1; x"
+run "var x = 1; x"
+run "var x = 1; x + 1; x"
+run "1+2
+run "1+2"
+run "1+2+3"
+run "var x = 1; x = x + 1; x"
+run "var x = 0; x = 1; x"
+run "var x = 1; x = x + 1; x"
+run "var x = 0; x = 1; x"
+run "var x = 0; x = x+1; x"
+run "1+1"
+run "1+1""
+run "1+2+3"
+run "var x = 0; x = x+1; x"
+"var x; x = x + 1"
+run "var x; x = x + 1"
+krun "var x = 0; x = x + 1"
+run "var x = 0; x = x + 1"
+run "var x = 0; x = x + 1; x"
+run "var x = 0; if( x + 5 > 3) 17 else 9"
+run "1"
+run test/miniscala/test/CMScalaToCPS_Blackbox.scala
+ls
+run "printInt(intPow(3, 12))"
+run test
+test
+run "1"
+]test
+test
+run "1"
+test
+run "1"
+test
+run "1"
+test
+run "if(true) 1 else 3"
+test
+run "def f(def g(): Int): Int = g(); f" 
+run "def g():Int =(); def f(g): Int = g(); f" 
+run "def g():Int =(); def f(g:Int): Int = g(); f" 
+run "def g():Int =(); def f(g:() => Int): Int = g(); f" 
+run "def g(): =(1); def f(g:() => Int): Int = g(); f" 
+run "def g():Int = (1); def f(g:() => Int): Int = g(); f" 
+test
+tail
+test
+run "def f(g: () => Int) = g(); f"
+test
+clear
+run /examples/pascal.scala
+run ./examples/pascal.scala
+test
+run "!"
+run "1"
+test
+run ./examples/pascal.scala
+test

@@ -1,0 +1,37 @@
+[0m[[0m[0minfo[0m] [0m[0mRunning project2.Runner sample/invalid_syntax_mut_variables.scala x86[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Classpath:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/Luffy/Desktop/CS352/proj2/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/Luffy/.sbt/boot/scala-2.12.3/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for thread run-main-14 to terminate.[0m
+[0m[[0m[31merror[0m] [0m[0m(run-main-14) java.lang.Exception[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.Exception[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Reporter.abort(Utils.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Reporter.abort$(Utils.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Parser.abort(Parser.scala:232)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Reporter.expected(Utils.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Reporter.expected$(Utils.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Parser.expected(Parser.scala:232)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Parser.expected(Parser.scala:241)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Parser.accept(Parser.scala:253)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.VariableParser.parseExpression(Parser.scala:622)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.LoopParser.parseExpression(Parser.scala:678)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.ArithParser.parseCode(Parser.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Runner$.main(Main.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.Runner.main(Main.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:497)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.run0(Run.scala:83)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:61)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$run$4(Run.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$$Lambda$2489/1889538345.apply$mcV$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.InterfaceUtil$$anon$1.get(InterfaceUtil.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TrapExit$App.run(TrapExit.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:745)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-14 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m

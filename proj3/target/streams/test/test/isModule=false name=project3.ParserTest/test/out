@@ -1,0 +1,20 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParserTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- SingleDigit *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  LetRec(List(),Lit(1)) did not equal Lit(1) Invalid result (ParserTest.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- GenericPrecedence *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  LetRec(List(),Prim(-,List(Lit(2), Prim(*,List(Lit(4), Lit(3)))))) did not equal Prim(-,List(Lit(2), Prim(*,List(Lit(4), Lit(3))))) Invalid result (ParserTest.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- ParseType *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  project3.AbortException: aborted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Reporter.abort(Utils.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Reporter.abort$(Utils.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Parser.abort(Parser.scala:233)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Reporter.expected(Utils.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Reporter.expected$(Utils.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Parser.expected(Parser.scala:233)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Parser.expected(Parser.scala:242)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.Parser.accept(Parser.scala:257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.BaseParser.parseExpression(Parser.scala:544)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at project3.BaseParser.parseCode(Parser.scala:473)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- ParseOptionalType *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  LetRec(List(),Let(x,UnknownType,Lit(1),Lit(2))) did not equal Let(x,UnknownType,Lit(1),Lit(2)) Invalid result (ParserTest.scala:15)[0m[0m

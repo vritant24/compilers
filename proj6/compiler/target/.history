@@ -1,0 +1,110 @@
+run "1"
+run "val z = 0; 1"
+run "1"
+run "def f() = {1}; 3""
+run "def f() = {1}; 3"
+run "def f() = {1}; def g() = {val x = 0; 7}; 3"
+run "def f() = {1}; 3"
+run "val x = 0; val y = 0;  y"
+run "1"
+run "val x = 0; val y = 0;  y"
+run "def f() = {1}; 3"
+run "def f() = {1}; putchar(3)"
+test
+run "val x = new Array[3]; x[0] = 1; putchar(x)"
+test
+run ../library/miniscala.lib ../examples/maze.scala
+test
+run "def f() = {putchar(2); f()}; f()"
+run "def f() = {putchar(2); 1}; f()"
+run "def f():Unit = {putchar(2); f()}; f()"
+run "def f() = {putchar(2); 1}; f()"
+run "def f() = {putchar(2); 1}; f(); f()"
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+run "def f() = {putchar(1)}; f(); f()"
+test
+run "def f() = {putchar(1)}; f(); f()"
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+run ../library/miniscala.lib ../examples/maze.scala
+run "def f() = putchar(65); f(); f(); f();"
+run "def f() = putchar(65); f(); f(); f()"
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run "def f()={putchar(23)}; f()"
+run "def f()={putchar(23)}; f(); f()"
+run "def f()={val x = 23; putchar(x)}; f(); f()"
+run "def f()={val x = 23; putchar(x)}; def g() = {f()}; g(); g()"
+run "def f()={val x = 23; putchar(x)}; def g() = {f()}; g(); g()"test
+test
+run "def f()={putchar(23)}; f(); f()"
+run "def f()={val x = 23; putchar(x)}; def g() = {f()}; g(); g()"test
+run "def f()={val x = 23; putchar(x)}; def g() = {f()}; g(); g()"
+def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+run ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+run "def f(x:Int):Int={putchar(x);f()}"
+run "def f(x:Int):Int={putchar(x);f()}; val y = 1; putchar(y)"
+run "def f(x:Int)={putchar(x);f()}; val y = 1; putchar(y)"
+run "def f(x:Int)={putchar(x);g()}; def g()={f()}; val y = 1; putchar(y)"
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/maze.scala
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/maze.scala
+test
+run ../library/miniscala.lib ../examples/maze.scala
+val a = new Array[Int](1); putchar(if (a.isList || a.isArray) 96 else 87)
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/maze.scala
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+clear
+run ../library/miniscala.lib ../examples/maze.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/vb-test.scala
+test
+run ../library/miniscala.lib ../examples/maxe.scala
+run ../library/miniscala.lib ../examples/maze.scala
+quit
+exit
+run ../library/miniscala.lib ../examples/maze.scala

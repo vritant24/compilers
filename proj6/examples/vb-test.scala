@@ -1,0 +1,1 @@
+val a = new Array[Int](1); putchar(if (a.isList || a.isArray) 96 else 87)

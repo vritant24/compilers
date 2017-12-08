@@ -1,0 +1,146 @@
+run "2-3"
+run "2-3
+run "2-3"
+run "2*3"
+run "4*-5"
+run "-4*5"
+run "-1"
+run "4*5"
+run "-1"
+run "-4"
+run "-3+1"
+run "-4 * 5"
+run "-1"
+run "-4 * 4"
+run "-4 * 5"
+run "1"
+run "-5 + -4"
+run "2- -2"
+run "var x = 3; x"
+run "1"
+run "var x=3; x"
+run "val x=3; x"
+run "val x = 3; x"
+run "1 + 2"
+run "10-8"
+run "var x = 3; x"
+run "10-8"
+run "var x = 3; x"
+run "val x = 3; x"
+run "var x = 3; x"
+run "var x = 3;"
+run "var x = 3; x"
+run "var x = 3; x + 1"
+run "1"
+run "3%1"
+run "3/2"
+run "3+2"
+run "1/2"
+run "10/5"
+run "14 / -3"
+run "10/5"
+run "14/ -3"
+run "10/2"
+run "4%2"
+run "4%3"
+run "13 % 17"
+run "4 % 3"
+run "4 % 8"
+run "2 | 1"
+run "2 & 1"
+run "2 ^ 1"
+run "3 ^ 1"
+run "1"
+test
+run "val x = 0; if(x < 3) 4 else 5"
+run "1"
+test
+run "1"
+run "def fun(x:Int):Int = { def anon1(y:Int):Int = {x + y};}; fun(1)(2);"
+run "def fun(x:Int):Int = { def anon1(y:Int):Int = {x + y}; anon1}; fun(1)(2);"
+run "def fun(x:Int):Int = { def anon1(y:Int):Int = {x + y}; anon1}; fun(1)(2)"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "1"
+run "1:
+run "1"
+run "def fun(x:Int):Int = { def anon1(y:Int):Int = {x + y}; anon1}; fun(1)(2)"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "1"
+s
+run "1"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "1 | 0"
+run "1 ^ 0"
+run "1"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+test
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "def fun(x:Int) = { x }; fun(1)"
+test
+run "def fun(x:Int) = { x }; fun(1)"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "def fun(x:Int) = { x }; fun(1)"
+test
+run "val x = 0; def f() = { x + 1 }; f();"
+run "val x = 0; def f() = { x + 1 }; f()"
+run "intPrintAsChar(prod(o))"
+test"
+tests
+test
+run ../examples/ex.scala
+run ../library/miniscala.lib ../examples/ex.scala
+test
+run ../library/miniscala.lib ../examples/ex.scala
+run "val x = 0; def f() = { x + 1 }; f()"
+test
+run "1"
+test
+run "val x = 0; def f() = { x + 1 }; f()"
+test
+run "val x = 0; def f() = { x + 1 }; f()"
+test
+run ../library/miniscala.lib ../examples/ex.scala
+run ../examples/ex.scala
+test
+tests
+test
+run ../examples/ex.scala
+run ../library/miniscala.lib ../examples/ex.scala
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; fun(1)(2)"
+run "def fun() = { val x = 1; def anon1(y:Int) = {x + y}; anon1}; annon1(2)"
+run "def fun() = { val x = 1; def anon1(y:Int) = {x + y}; anon1}; anon1(2)"
+run "def fun(x:Int) = { def anon1(y:Int) = {x + y}; anon1}; def g() = {fun(1)(2)}; g()"
+run "def fun(x:Int) = { x }; def g() = {fun(1)}; g()"
+test
+run "if (putchar('O'.toInt) == ()) true else false"
+run "if (putchar('k'.toInt) == ()) true else false"
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('n'.toInt)"
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('p'.toInt)"
+tests
+test
+run "() == ()"
+run "if( () == () ) 1 else 2"
+test
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('p'.toInt)"
+run "putchar('y'.toInt)"
+run "putchar('l'.toInt)"
+test
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('p'.toInt)"
+test
+s
+test
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('p'.toInt)"
+run "121 << 3"
+run "if (putchar('k'.toInt) == ()) putchar('y'.toInt) else putchar('p'.toInt)"
+run "if(1 == 1) 1 else 2"
+run "if(a == a) 1 else 2"
+run "if(a.toInt == b.toInt) 1 else 2"
+run "val a = w; if(a == a) 1 else 2"
+run "val a = "w"; if(a == a) 1 else 2"
+run "val a = 'w'; if(a == a) 1 else 2"
+run "val a = (); if(a == a) 1 else 2"
+run "val a = putchar('w'.toInt); if(a == a) 1 else 2"
+run "val a = putchar('w'.toInt); if(a == ()) 1 else 2"
+test
+run "if (putchar('w'.toInt) == ()) 1 else 2"
+test
